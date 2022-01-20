@@ -1,0 +1,93 @@
+h1{
+    color: #EBC036;
+}
+.lead{
+    color: white;
+}
+.body{
+    background-color: #EFE6DD;
+}
+html, body{
+    height: 100%;
+}
+
+body{
+    background-color: #EFE6DD;
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:"roboto", sans-serif;
+}
+
+
+/********* HOME PAGE *******/
+
+.accroche{
+    margin-top:95px;
+}
+
+.accroche h2{
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom:20px;
+}
+
+.accroche h2 span{
+    color:#EBC036;
+}
+
+#clavier{
+    display: block;
+    width: 250px; 
+    margin:0 auto; 
+}
+
+#perso{
+    width: 150px;
+    
+
+}
+.btn{
+    background-color: #231F20;
+    color:#EBC036 ;
+    width: 108px;
+}
+header .btn{
+    position: absolute;
+    left: 25px;
+    top: 80px;
+}
+.btn img{
+    height: 32px;
+    width:32px
+}
+#dropdownMenuLink{
+    width: auto;
+}
+.site_action{
+    background-color: #B6B859;
+}
+.site_strategie{
+    background-color: #1A659E;
+}
+.site_rpg{
+    background-color: #62929E;
+}
+.site_sport{
+    background-color: #E71D36;
+}
+
+.site_action .title{
+    color: #B6B859;
+}
+.site_strategie .title{
+    color: #1A659E;
+}
+.site_rpg .title{
+    color: #62929E;
+}
+.site_sport .title{
+    color: #E71D36;
+}
+

@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Games Bond</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style_dayane.css" />
+    <link rel="stylesheet" href="nav_footer.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&family=Roboto&family=Smooch&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" href="/favicon.ico" />
+  </head>
+  <body class="site_rpg">
+    <main class="site_content">
+      <!--Navigation-->
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img id="logo" src="hitman.png" alt="Logo" />Games Bond</a
+          >
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Accueil</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="Catalogue.html"
+                  id="navbarDropdownjeux"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Nos jeux</a
+                >
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownjeux">
+                  <li>
+                    <a class="dropdown-item" href="Catalogue.html">Tout</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="Catalogue_Action.html"
+                      >Action</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="Catalogue_Sport.html"
+                      >Sport</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="Catalogue_Strategie.html"
+                      >Stratégie</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="Catalogue_RPG.html">RPG</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Mon compte</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Mon panier</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  id="navbarDropdownequipe"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  A propos</a
+                >
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownequipe"
+                >
+                  <li>
+                    <a class="dropdown-item" href="equipe.html">Equipe</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="CV_Allan.html">Allan</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="CV_Dayane.html">Dayane</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="CV_Estelle.html">Estelle</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="CV_Franck.html">Franck</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--Header-->
+      <header class="bg-dark py-5">
+        <div class="container px-4 px-lg-5 my-5">
+          <div class="a text-center text-white">
+            <h1 class="title display-4 fw-bolder">RPG</h1>
+            <p class="lead fw-normal mb-0">
+              Ici, retrouvez toutes les dernières nouveautés et meilleures
+              ventes.<br />
+              Incarnez le héros et devenez de plus en plus puissant au cours de
+              l’histoire
+            </p>
+          </div>
+        </div>
+        <div class="dropdown">
+          <a
+            class="btn btn-secondary dropdown-toggle"
+            href="#"
+            role="button"
+            id="dropdownMenuLink"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Catégories
+          </a>
+
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li><a class="dropdown-item" href="Catalogue.html">Toutes</a></li>
+            <li>
+              <a class="dropdown-item" href="Catalogue_Action.html">Action</a>
+            </li>
+            <li><a class="dropdown-item" href="Catalogue_RPG.html">RPG</a></li>
+            <li>
+              <a class="dropdown-item" href="Catalogue_Sport.html">Sport</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="Catalogue_Strategie.html"
+                >Stratégie</a
+              >
+            </li>
+          </ul>
+        </div>
+      </header>
+      <!-- Section-->
+
+      <section class="py-5">
+        <div class="container px-4 px-lg-5 mt-5">
+          <div
+            class="
+              row
+              gx-4 gx-lg-5
+              row-cols-2 row-cols-md-3 row-cols-xl-4
+              justify-content-center
+            "
+          >
+            <div class="col mb-5">
+              <div class="card h-100 border border-dark">
+                <!-- Sale badge-->
+                <div
+                  class="badge bg-dark text-white position-absolute"
+                  style="top: 0.5rem; right: 0.5rem"
+                >
+                  Sale
+                </div>
+                <!-- Product image-->
+                <img
+                  class="card-img-top"
+                  src="Images/Bioshock.jpg"
+                  alt="Bioshock"
+                />
+                <!-- Product details-->
+                <div class="card-body p-4">
+                  <div class="text-center">
+                    <!-- Product name-->
+                    <h5 class="fw-bolder">Bioshock The Collection</h5>
+                    <!-- Product reviews-->
+                    <div
+                      class="
+                        d-flex
+                        justify-content-center
+                        small
+                        text-warning
+                        mb-2
+                      "
+                    >
+                      <div class="bi-star-fill"></div>
+                      <div class="bi-star-fill"></div>
+                      <div class="bi-star-fill"></div>
+                      <div class="bi-star-fill"></div>
+                      <div class="bi-star-fill"></div>
+                    </div>
+                    <!-- Product price-->
+                    <span class="text-muted text-decoration-line-through"
+                      >60.00€</span
+                    >
+                    7.50€
+                  </div>
+                </div>
+                <!-- Product actions-->
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                  <div class="text-center">
+                    <a
+                      class="btn btn-outline-dark mt-auto"
+                      href="fiche_produitBIOSHOCK.html"
+                      >Plus d'infos</a
+                    >
+                  </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                  <div class="text-center">
+                    <a class="btn btn-outline-dark mt-auto" href="#"
+                      ><img src="Icon_shop.png" alt="Icon_shop"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-5">
+              <div class="card h-100 border border-dark">
+                <!-- Sale badge-->
+                <div
+                  class="badge bg-dark text-white position-absolute"
+                  style="top: 0.5rem; right: 0.5rem"
+                >
+                  Sale
+                </div>
+                <!-- Product image-->
+                <img
+                  class="card-img-top"
+                  src="Images/Diablo.jpg"
+                  alt="Diablo II"
+                />
+                <!-- Product details-->
+                <div class="card-body p-4">
+                  <div class="text-center">
+                    <!-- Product name-->
+                    <h5 class="fw-bolder">Diablo II Resurrected</h5>
+                    <!-- Product price-->
+                    <span class="text-muted text-decoration-line-through"
+                      >60.00€</span
+                    >
+                    37.00€
+                  </div>
+                </div>
+                <!-- Product actions-->
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                  <div class="text-center">
+                    <a
+                      class="btn btn-outline-dark mt-auto"
+                      href="fiche_produitDIABLO.html"
+                      >Plus d'infos</a
+                    >
+                  </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                  <div class="text-center">
+                    <a class="btn btn-outline-dark mt-auto" href="#"
+                      ><img src="Icon_shop.png" alt="Icon_shop"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-5">
+              <div class="card h-100 border border-dark">
+                <!-- Sale badge-->
+                <div
+                  class="badge bg-dark text-white position-absolute"
+                  style="top: 0.5rem; right: 0.5rem"
+                >
+                  Sale
+                </div>
+                <!-- Product image-->
+                <img
+                  class="card-img-top"
+                  src="Images/FinalFantasy.jpg"
+                  alt="FinalFantasy"
+                />
+                <!-- Product details-->
+                <div class="card-body p-4">
+                  <div class="text-center">
+                    <!-- Product name-->
+                    <h5 class="fw-bolder">Final Fantasy X | X-2 HD Remaster</h5>
+                    <!-- Product price-->
+                    <span class="text-muted text-decoration-line-through"
+                      >25.00€</span
+                    >
+                    5.00€
+                  </div>
+                </div>
+                <!-- Product actions-->
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                  <div class="text-center">
+                    <a
+                      class="btn btn-outline-dark mt-auto"
+                      href="fiche_produitFINALFANTASY.html"
+                      >Plus d'infos</a
+                    >
+                  </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                  <div class="text-center">
+                    <a class="btn btn-outline-dark mt-auto" href="#"
+                      ><img src="Icon_shop.png" alt="Icon_shop"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col mb-5">
+              <div class="card h-100 border border-dark">
+                <!-- Product image-->
+                <img
+                  class="card-img-top"
+                  src="Images/TheWitcher.jpg"
+                  alt="The Witcher III"
+                />
+                <!-- Product details-->
+                <div class="card-body p-4">
+                  <div class="text-center">
+                    <!-- Product name-->
+                    <h5 class="fw-bolder">The Witcher III Wild Hunt</h5>
+                    <!-- Product price-->
+                    12.99€
+                  </div>
+                </div>
+                <!-- Product actions-->
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                  <div class="text-center">
+                    <a
+                      class="btn btn-outline-dark mt-auto"
+                      href="fiche_produitTHEWITCHER.html"
+                      >Plus d'infos</a
+                    >
+                  </div>
+                </div>
+                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                  <div class="text-center">
+                    <a class="btn btn-outline-dark mt-auto" href="#"
+                      ><img src="Icon_shop.png" alt="Icon_shop"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <h2>Pour nous contacter</h2>
+      <div class="container">
+        <div class="row">
+          <div class="colo col-sm-12 col-lg-4">
+            <i class="far fa-address-card"></i>
+            Games Bond <br />
+            16 Bd Maréchal Lyautey <br />
+            38000 Grenoble
+          </div>
+
+          <div class="colo col-sm-12 col-lg-4">
+            <i class="fas fa-at"></i>
+            contact@games-bond.fr
+          </div>
+
+          <div class="colo colo1 col-sm-12 col-lg-4">
+            <i class="fas fa-phone-square-alt"></i>
+            09 00 70 07 70
+          </div>
+
+          <div class="reseaux">
+            <a href="https://fr-fr.facebook.com/">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/?hl=fr">
+              <i class="fab fa-instagram-square"></i>
+            </a>
+            <a href="https://twitter.com/?lang=fr">
+              <i class="fab fa-twitter-square"></i>
+            </a>
+            <a href="https://fr.linkedin.com/">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+          <div class="copyright">
+            <a href="">&copy; Copyright</a>
+            <a href="">Mentions légales</a>
+            <a href="">Plan du site</a>
+            <a href="">Newsletter</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/afa68139eb.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

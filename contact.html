@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Games Bond-Contact</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style_allan.css" />
+    <link rel="stylesheet" href="nav_footer.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display&family=Roboto&family=Smooch&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="icon" href="/favicon.ico" />
+  </head>
+
+  <body class="site">
+    <main class="site_content">
+      <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img id="logo" src="hitman.png" alt="Logo" />Games Bond</a
+          >
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="index.html">Accueil</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="Catalogue.html"
+                  id="navbarDropdownjeux"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Nos jeux</a
+                >
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownjeux">
+                  <li>
+                    <a class="dropdown-item" href="Catalogue.html">Tout</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="Catalogue_Action.html"
+                      >Action</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="Catalogue_Sport.html"
+                      >Sport</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="Catalogue_Strategie.html"
+                      >Stratégie</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="Catalogue_RPG.html">RPG</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Mon compte</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Mon panier</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  id="navbarDropdownequipe"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  A propos</a
+                >
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownequipe"
+                >
+                  <li>
+                    <a class="dropdown-item" href="equipe.html">Equipe</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="CV_Allan.html">Allan</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="CV_Dayane.html">Dayane</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="CV_Estelle.html">Estelle</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="CV_Franck.html">Franck</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <h1>Contact</h1>
+      <section class="formContact">
+        <form class="row g-3" method="post" action="https://httpbin.org/post" target="blank">
+          <div class="col-md-6">
+            <label for="inputName" class="form-label">Nom</label>
+            <input
+              type="text"
+              class="form-control"
+              name="Nom"
+              id="inputName"
+              required
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="inputLastname" class="form-label">Prénom</label>
+            <input
+              type="text"
+              class="form-control"
+              id="inputLastname"
+              name="Prenom"
+              required
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="inputEmail" class="form-label">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="inputEmail"
+              name="Email"
+              placeholder="jean.jacque@laposte.net"
+              required
+            />
+          </div>
+          <div class="col-md-6">
+            <label for="inputChoice" class="form-label"
+              >Raison de votre message</label
+            >
+            <select id="inputChoice" class="form-select" name="Raison" required>
+              <option value="">Choisissez parmi la liste</option>
+              <option value="sav">SAV</option>
+              <option value="job">Job</option>
+              <option value="partenariat">Partenariat</option>
+              <option value="autre">Autre</option>
+            </select>
+          </div>
+          <div class="col-12">
+            <label for="inputMessage" class="form-label">Message</label>
+            <textarea
+              name="Message"
+              class="form-control text1"
+              id="inputMessage"
+              placeholder="Tapez votre message ici ..."
+              required
+            ></textarea>
+          </div>
+          <!-- Button trigger modal CHANGER ICI POUR LE TYPE DE BOUTTON-->
+          <div class="col-lg-6">
+            <button
+              type="button"
+              class="btn btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#staticBackdrop"
+            >
+              Envoyer
+            </button>
+          </div>
+
+          <!-- Modal -->
+          <div
+            class="modal fade"
+            id="staticBackdrop"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            tabindex="-1"
+            aria-labelledby="staticBackdropLabel"
+            aria-hidden="true"
+          >
+            <div class="modal-dialog modal-dialog-centered">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="staticBackdropLabel">
+                    Votre message a bien été envoyé !
+                  </h5>
+                  
+                </div>
+                <div class="modal-footer">
+                  <button
+                    type="submit"
+                    class="btn btn-secondary"
+                    data-bs-dismiss="modal"
+                  >
+                    Fermer
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4940.97606710661!2d5.73125695317073!3d45.18434488879459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x478af57ab1038e03%3A0x20b1fc695f27f8ae!2sLe%20TOTEM%20-%20Accueil%20sur%20RDV!5e1!3m2!1sfr!2sfr!4v1640083818509!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </section>
+    </main>
+    <footer>
+      <h2>Pour nous contacter</h2>
+      <div class="container">
+        <div class="row">
+          <div class="colo col-sm-12 col-lg-4">
+            <i class="far fa-address-card"></i>
+            Games Bond <br />
+            16 Bd Maréchal Lyautey <br />
+            38000 Grenoble
+          </div>
+
+          <div class="colo col-sm-12 col-lg-4">
+            <i class="fas fa-at"></i>
+            contact@games-bond.fr
+          </div>
+
+          <div class="colo colo1 col-sm-12 col-lg-4">
+            <i class="fas fa-phone-square-alt"></i>
+            09 00 70 07 70
+          </div>
+
+          <div class="reseaux">
+            <a href="https://fr-fr.facebook.com/">
+              <i class="fab fa-facebook"></i>
+            </a>
+            <a href="https://www.instagram.com/?hl=fr">
+              <i class="fab fa-instagram-square"></i>
+            </a>
+            <a href="https://twitter.com/?lang=fr">
+              <i class="fab fa-twitter-square"></i>
+            </a>
+            <a href="https://fr.linkedin.com/">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+          <div class="copyright">
+            <a href="#">&copy; Copyright</a>
+            <a href="#">Mentions légales</a>
+            <a href="#">Plan du site</a>
+            <a href="#">Newsletter</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+
+    <script
+      src="https://kit.fontawesome.com/afa68139eb.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
